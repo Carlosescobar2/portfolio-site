@@ -25,6 +25,8 @@ function About() {
 
                 </SkillSection>
                 </SkillBox>
+          
+           
     </Container>
 
   )
@@ -33,13 +35,14 @@ const Container = styled.div`
     display: flex;
     height: 100vh;
     margin-top: -25px;
-    background: rgb(150,109,109);
-    background: linear-gradient(0deg, rgba(150,109,109,1) 15%, rgba(171,139,142,1) 74%, rgba(133,110,114,1) 96%);
-    
+    background: rgb(117,73,73);
+    background: linear-gradient(103deg, rgba(117,73,73,1) 5%, rgba(150,109,109,1) 15%, rgba(171,139,142,1) 74%, rgba(133,110,114,1) 96%, rgba(150,111,118,1) 100%); 
     
 p{
+    padding-top: 150px;
     flex-direction: column;
-    width: 50vw;
+    height:50vh;
+    width:50vw;
     font-size: 1.5rem;
 }
 
@@ -89,4 +92,6 @@ const SkillSection = styled.div`
     margin-top: 2vh;
 
 `
+
+
 export default About;

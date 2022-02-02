@@ -50,8 +50,9 @@ const Container = styled.div`
     /* background: linear-gradient(
     0deg
     , rgba(255,255,255,1) 0%, rgba(121,9,77,1) 100%); */
-    background: rgb(158,49,177);
-background: linear-gradient(201deg, rgba(158,49,177,1) 19%, rgba(116,34,213,1) 60%, rgba(193,91,196,1) 94%);
+    background: rgb(117,73,73);
+background: linear-gradient(103deg, rgba(117,73,73,1) 6%, rgba(122,79,79,1) 15%, rgba(133,110,114,1) 60%, rgba(162,105,110,1) 100%, rgba(150,111,118,1) 100%);
+
     h2{
         padding-top: 20px;
         margin-left: 10px;
@@ -126,7 +127,8 @@ const SingleImg = styled.div`
     img{
         height: 30%;
         width: 30%;
-        margin-left: 500px;
+        margin-top: 50px;
+        margin-left: 30px;
         box-shadow: rgb(0 0 0 / 69%) 0px 26px 30px -10px, 
             rgb(0 0 0 / 73%) 0px 16px 10px -10px;
     }

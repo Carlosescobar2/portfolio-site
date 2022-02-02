@@ -12,7 +12,9 @@ function Header() {
             <a href="https://github.com/Carlosescobar2"><Icon icon="akar-icons:github-fill" /></a>
             <a href='https://www.linkedin.com/in/carlos-escobar11/'><Icon icon="akar-icons:linkedin-fill" /></a>
             </RightMenu>
-
+        <LogoCon />
+            
+        
             <Leftmenu>
                 <a href="#">About</a>
                 <a href="#">Skills</a>
@@ -68,6 +70,18 @@ const Leftmenu = styled.div`
         a:hover { 
             text-decoration: underline;
         }
+
+`
+
+const LogoCon = styled.div`
+    position: absolute;
+     top: 80%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     height: 60px;
+     width: 60px;
+     box-shadow: -15px 15px 0 5px white  ;
+     border-radius: 50%;
 
 `
 export default Header;
