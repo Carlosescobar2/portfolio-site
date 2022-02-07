@@ -23,8 +23,8 @@ function Home() {
 }
 
 const Wrap = styled.div`
-    width: 100vw;
-    height: 100vh;
+    height:120vh;
+    width:100vw;
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;

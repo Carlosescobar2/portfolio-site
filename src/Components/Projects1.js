@@ -15,7 +15,7 @@ function Projects1() {
         variableWidth: false
         }
   return (
-      <Container>
+      <Container id="projectSection">
 
             <WrapText>
                 <h2>Projects</h2>
@@ -44,8 +44,8 @@ function Projects1() {
 }
 
 const Container = styled.div`
-    max-height: 100%;
-    width: 100%;
+    height:100vh;
+    width: 100vw;
     margin-top: -40px;
     /* background: linear-gradient(
     0deg

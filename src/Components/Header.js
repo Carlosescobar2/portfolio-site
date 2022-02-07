@@ -3,7 +3,6 @@ import styled from 'styled-components';
 
 import { Icon } from '@iconify/react';
 
-
 function Header() {
  
     return (
@@ -16,9 +15,9 @@ function Header() {
             
         
             <Leftmenu>
-                <a href="#">About</a>
-                <a href="#">Skills</a>
-                <a href="#">Projects</a>
+                <a href="#aboutSection">About</a>
+                <a href="#aboutSection">Skills</a>
+                <a href="#projectSection">Projects</a>
 
 
             </Leftmenu>
@@ -82,7 +81,16 @@ const LogoCon = styled.div`
      width: 60px;
      box-shadow: -15px 15px 0 5px white  ;
      border-radius: 50%;
+     animation: rotation 20s infinite linear;
 
+     @keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}     
 `
 export default Header;
 
